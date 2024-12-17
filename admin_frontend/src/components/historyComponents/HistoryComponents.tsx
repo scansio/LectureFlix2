@@ -1,4 +1,4 @@
-import Reblend, { useEffect, useMemo, useRef, useState } from "reblendjs";
+import Reblend, { IAny, useEffect, useMemo, useRef, useState } from "reblendjs";
 import { Button, ButtonGroup } from "react-bootstrap";
 import { toast } from "react-toastify";
 import HistoryComponentsForm from "./HistoryComponentsForm";
@@ -89,11 +89,17 @@ function HistoryComponents({
     if (!controllerRoute) {
       return;
     }
-    const ignore = ["_id", "__v", "status", "createdAt", "updatedAt"];
+    const ignore: IAny = {
+      _id: 1,
+      __v: 1,
+      status: 1,
+      createdAt: 1,
+      updatedAt: 1,
+    };
     const fields: any = {};
     fields["_id"] = { name: "Id", type: String };
     for (const key of Object.keys(controllerRoute?.schema! || {})) {
-      if (!ignore.includes(key)) {
+      if (!ignore[key]) {
         fields[key] = { name: key, type: String };
       }
     }

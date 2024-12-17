@@ -1,6 +1,6 @@
 import { Row, Col, InputGroup, Form } from "react-bootstrap";
 import { toast } from "react-toastify";
-import Reblend, { useState, useEffect, useRef, useMemo } from "reblendjs";
+import Reblend, { useState, useEffect, useRef, useMemo, IAny } from "reblendjs";
 import fetcher from "../../utils/SharedFetcher";
 import Spinner from "../general/Spinner";
 import { FormEvent } from "react";
@@ -25,7 +25,15 @@ function HistoryComponentsForm({
   const [keys, setKeys] = useState<{ key: string; type: string }[]>([]);
 
   useEffect(() => {
-    const ignore = ["_id", "__v", "status", "createdAt", "updatedAt"];
+    const ignore: IAny = {
+      _id: 1,
+      __v: 1,
+      status: 1,
+      createdAt: 1,
+      updatedAt: 1,
+      "createdAt.date": 1,
+      "updatedAt.date": 1,
+    };
     const _fields: any[] = [];
 
     const getType = (type: any) => {
@@ -40,7 +48,7 @@ function HistoryComponentsForm({
     };
 
     for (const [key, value] of Object.entries(fields || {})) {
-      if (!ignore.find((ign) => key.includes(ign)) && !value.virtual) {
+      if (!ignore[key] && !value.virtual) {
         _fields.push({ key, type: getType(value.type) });
       }
     }

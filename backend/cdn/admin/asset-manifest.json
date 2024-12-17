@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cdn/admin/static/css/main.1ac9a5bf.css",
-    "main.js": "/cdn/admin/static/js/main.5d5fdfa2.js",
+    "main.js": "/cdn/admin/static/js/main.c99133ae.js",
     "static/media/boxicons.svg": "/cdn/admin/static/media/boxicons.ad4223794acd42866388.svg",
     "static/media/fa-solid-900.ttf": "/cdn/admin/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/boxicons.eot": "/cdn/admin/static/media/boxicons.c324d2b5569fb2c20e5d.eot",
@@ -20,6 +20,6 @@
   },
   "entrypoints": [
     "static/css/main.1ac9a5bf.css",
-    "static/js/main.5d5fdfa2.js"
+    "static/js/main.c99133ae.js"
   ]
 }
