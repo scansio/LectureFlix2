@@ -1,1 +1,1 @@
-# Lift Backend
+### LectureFlix Prototype Backend
