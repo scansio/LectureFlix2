@@ -1,0 +1,5 @@
+RewriteRule ^scheduling(.*)$ http://127.0.0.1:6098/scheduling/$1 [P]
+RewriteRule ^main(.*)$ http://127.0.0.1:3003/main/$1 [P]
+RewriteRule ^hook(.*)$ http://127.0.0.1:3002/hook/$1 [P]
+RewriteRule ^cdn(.*)$ http://127.0.0.1:2024/cdn/$1 [P]
+socket

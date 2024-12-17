@@ -1,0 +1,5 @@
+**/*.log
+/*.log
+*log
+backend/cdn/file_store/*
+.vercel

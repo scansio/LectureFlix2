@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/cdn/landing_page/static/css/main.9a71fbc5.css",
+    "main.js": "/cdn/landing_page/static/js/main.f11c81db.js",
+    "static/js/453.3186a550.chunk.js": "/cdn/landing_page/static/js/453.3186a550.chunk.js",
+    "index.html": "/cdn/landing_page/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.9a71fbc5.css",
+    "static/js/main.f11c81db.js"
+  ]
+}

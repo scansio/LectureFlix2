@@ -1,0 +1,11 @@
+[Unit]
+Description=lift Ai RepoHook Server
+After=network.target
+
+[Service]
+ExecStart=<ROOT_PATH>/start-server.sh RepoServer
+#Restart=always
+User=<CURRENT_USER>
+
+[Install]
+WantedBy=multi-user.target

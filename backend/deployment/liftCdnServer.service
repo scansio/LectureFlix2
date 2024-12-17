@@ -1,0 +1,11 @@
+[Unit]
+Description=lift Ai CDN Server
+After=network.target
+
+[Service]
+ExecStart=<ROOT_PATH>/start-server.sh CdnServer
+#Restart=always
+User=<CURRENT_USER>
+
+[Install]
+WantedBy=multi-user.target

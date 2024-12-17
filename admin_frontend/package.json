@@ -1,0 +1,49 @@
+{
+  "name": "lectureflix-admin-portal",
+  "version": "0.1.0",
+  "publisher": "Emmanuel Paul Elom <scansioquielom@gmail.com>",
+  "homepage": "/cdn/admin",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "@popperjs/core": "^2.11.8",
+    "@types/react-highlight": "^0.12.8",
+    "accounting": "^0.4.1",
+    "axios": "^1.7.4",
+    "bootstrap": "^5.3.3",
+    "boxicons": "^2.1.4",
+    "date-fns": "^4.1.0",
+    "eslint-plugin-reblend": "^7.34.8",
+    "highlight.js": "^11.10.0",
+    "jquery": "^3.7.1",
+    "perfect-scrollbar": "^1.5.5",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.5",
+    "react-dom": "^18.3.1",
+    "react-highlight": "^0.15.0",
+    "react-icons": "^5.3.0",
+    "react-toastify": "^10.0.5",
+    "reblend-router": "latest",
+    "reblend-scripts": "latest",
+    "reblendjs": "latest",
+    "typescript": "^4.9.5",
+    "websocket": "^1.0.35"
+  },
+  "scripts": {
+    "start": "reblend-scripts start",
+    "build": "reblend-scripts build && rm -rf ../backend/cdn/admin; mkdir -p ../backend/cdn/admin && cp -r ./build/* ../backend/cdn/admin",
+    "test": "reblend-scripts test",
+    "eject": "reblend-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

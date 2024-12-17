@@ -1,0 +1,24 @@
+{
+  "name": "lectureflix",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build:frontend": "cd frontend && npm run build",
+    "build:admin": "cd admin_frontend && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "build": " npm run build:admin; npm run build:frontend; npm run build:backend;",
+    "start:admin": "cd admin_frontend && npm run start",
+    "start:backend": "cd backend && npm run start",
+    "start": "npm run start:backend;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scansio/LectureFlix2.git"
+  },
+  "author": "Emmanuel Paul Elom <scansioquielom@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scansio/LectureFlix2/issues"
+  },
+  "homepage": "https://github.com/scansio/LectureFlix2#readme"
+}

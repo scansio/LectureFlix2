@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SERVICE_UNAVAILABLE = exports.SERVER_ERROR = exports.BAD_AUTHORIZATION = exports.NOTFOUND = exports.POST_SUCCESS = exports.GET_SUCCESS = exports.BAD_AUTHENTICATION = exports.BAD_REQUEST = void 0;
+exports.BAD_REQUEST = 400;
+exports.BAD_AUTHENTICATION = 401;
+exports.GET_SUCCESS = 200;
+exports.POST_SUCCESS = 201;
+exports.NOTFOUND = 404;
+exports.BAD_AUTHORIZATION = 403;
+exports.SERVER_ERROR = 500;
+exports.SERVICE_UNAVAILABLE = 503;

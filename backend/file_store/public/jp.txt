@@ -1,0 +1,38 @@
+npm run dev
+scyber@Scanq:/mnt/sharepoint/web_stuff/node/freshman/back$ npm run dev
+Debugger attached.
+
+> freshy@1.0.0 dev
+> nodemon backend/server.js
+
+Debugger attached.
+[nodemon] 2.0.20
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node backend/server.js`
+Debugger attached.
+(node:8466) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node backend/server.js`
+Debugger attached.
+(node:8621) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node backend/server.js`
+Debugger attached.
+(node:8802) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node backend/server.js`
+Debugger attached.
+(node:9050) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Server running on port 5000
+^CWaiting for the debugger to disconnect...
+Waiting for the debugger to disconnect...
