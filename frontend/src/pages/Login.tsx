@@ -62,7 +62,7 @@ function Login() {
                   <Link href="/">
                     <img
                       class="mx-auto h-50 w-50 rounded-full"
-                      src="/lectureFlixnest.logo.background.webp"
+                      src={(window as any).REBLEND_BASE_PATHNAME + "/blognest.logo.background.webp"}
                       alt="Logo"
                     />
                   </Link>
@@ -154,7 +154,7 @@ function Login() {
             <div class="flex-grow">
               <img
                 sizes="(max-width: 768px) 100vw, 50vw"
-                src="/static/media/BecomeAnAuthorImg.02703848a9dd53f8bbac.png"
+                src={(window as any).REBLEND_BASE_PATHNAME + "/static/media/BecomeAnAuthorImg.02703848a9dd53f8bbac.png"}
                 class="undefined"
                 alt="hero"
               />

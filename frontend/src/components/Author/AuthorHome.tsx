@@ -85,7 +85,7 @@ function AuthorHome() {
       type: String,
       transform: {
         out: (rowData: any) => (
-          <img src={BASE + rowData.coverImageUrl} alt="Cover" />
+          <img src={(window as any).REBLEND_BASE_PATHNAME + BASE + rowData.coverImageUrl} alt="Cover" />
         ),
       },
       virtual: true,
@@ -124,7 +124,7 @@ function AuthorHome() {
       type: Number,
       transform: {
         out: (rowData: any) => (
-          <a href={"/author/" + rowData.slug + "/comments"}>
+          <a href={(window as any).REBLEND_BASE_PATHNAME + "/author/" + rowData.slug + "/comments"}>
             {rowData.numComments}
           </a>
         ),

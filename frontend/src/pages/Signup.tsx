@@ -63,7 +63,7 @@ function Signup() {
                   <Link href="/">
                     <img
                       class="mx-auto h-50 w-50"
-                      src="/lectureFlixnest.logo.transparent.png"
+                      src={(window as any).REBLEND_BASE_PATHNAME + "/blognest.logo.transparent.png"}
                       alt="Logo"
                     />
                   </Link>
@@ -223,7 +223,7 @@ function Signup() {
             </div>
             <div class="flex-grow">
               <img
-                src="/static/media/onboarding1.png"
+                src={(window as any).REBLEND_BASE_PATHNAME + "/static/media/onboarding1.png"}
                 class="w-full"
                 alt="hero"
               />

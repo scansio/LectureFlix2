@@ -106,7 +106,7 @@ function Newsletter() {
         <div class="flex-grow">
           <img
             sizes="(max-width: 768px) 100vw, 50vw"
-            src="/static/media/SVG-subcribe2.efb832b25bd6eca32484.png"
+            src={(window as any).REBLEND_BASE_PATHNAME + "/static/media/SVG-subcribe2.efb832b25bd6eca32484.png"}
             class="undefined"
             alt="Subscribe"
           />

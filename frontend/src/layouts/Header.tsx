@@ -68,7 +68,7 @@ function Header() {
               >
                 <img
                   class="mx-auto h-20 w-20"
-                  src="/lectureFlixnest.logo.transparent.png"
+                  src={(window as any).REBLEND_BASE_PATHNAME + "/blognest.logo.transparent.png"}
                   alt="Logo"
                 />
               </Link>

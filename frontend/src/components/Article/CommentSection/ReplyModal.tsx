@@ -212,7 +212,7 @@ function ReplyModal({
                 </div>
                 <a
                   class="flex-shrink-0 font-semibold text-neutral-800 dark:text-neutral-100"
-                  href={"/publisher/" + reply?.uid.slug}
+                  href={(window as any).REBLEND_BASE_PATHNAME + "/publisher/" + reply?.uid.slug}
                 >
                   {reply?.uid.firstname} {reply?.uid.lastname}
                 </a>

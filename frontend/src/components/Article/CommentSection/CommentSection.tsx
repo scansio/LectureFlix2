@@ -221,7 +221,7 @@ function CommentSection({
                       >
                         <img
                           sizes="100px"
-                          src={
+                          src={(window as any).REBLEND_BASE_PATHNAME + 
                             BASE + comment.uid?.avatar ||
                             "/static/media/8.ce5f252ae5871de13c94.jpg"
                           }
@@ -265,7 +265,7 @@ function CommentSection({
                           </div>
                           <a
                             class="flex-shrink-0 font-semibold text-neutral-800 dark:text-neutral-100"
-                            href={"/publisher/" + comment.uid.slug}
+                            href={(window as any).REBLEND_BASE_PATHNAME + "/publisher/" + comment.uid.slug}
                           >
                             {comment.uid.firstname} {comment.uid.lastname}
                           </a>
@@ -392,7 +392,7 @@ function CommentSection({
               </button>
               <div class="border-l h-4 border-neutral-200 dark:border-neutral-700"></div>
               <a
-                href="#comments"
+                href={(window as any).REBLEND_BASE_PATHNAME + "#comments"}
                 class="nc-PostCardCommentBtn relative items-center min-w-[68px] rounded-full text-neutral-6000 bg-neutral-50 transition-colors dark:text-neutral-200 dark:bg-neutral-800 hover:bg-teal-50 dark:hover:bg-teal-100 hover:text-teal-600 dark:hover:text-teal-500  flex px-3 h-9 text-xs "
                 title="Comments"
               >

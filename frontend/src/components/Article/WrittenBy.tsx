@@ -20,7 +20,7 @@ function WrittenBy({
           <div class="wil-avatar relative flex-shrink-0 inline-flex items-center justify-center overflow-hidden text-neutral-100 uppercase font-semibold shadow-inner rounded-full h-12 w-12 text-lg sm:text-xl sm:h-24 sm:w-24 ring-1 ring-white dark:ring-neutral-900">
             <img
               sizes="100px"
-              src={BASE! + author?.avatar}
+              src={(window as any).REBLEND_BASE_PATHNAME + BASE! + author?.avatar}
               class="absolute inset-0 w-full h-full object-cover object-cover absolute inset-0 w-full h-full"
               alt="Birrell Chariot"
             />

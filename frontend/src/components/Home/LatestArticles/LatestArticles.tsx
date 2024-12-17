@@ -65,13 +65,13 @@ function LatestArticles() {
                           {article.tags?.map((tag: any) => (
                             <a
                               class="transition-colors hover:text-white duration-300 nc-Badge  inline-flex px-2.5 py-1 rounded-full font-medium text-xs relative text-red-800 bg-red-100 hover:bg-red-800"
-                              href={"/tag/" + tag}
+                              href={(window as any).REBLEND_BASE_PATHNAME + "/tag/" + tag}
                             >
                               {tag}
                             </a>
                           ))}
                         </div>
-                        <a class="block" href={"/article/" + article.slug}>
+                        <a class="block" href={(window as any).REBLEND_BASE_PATHNAME + "/article/" + article.slug}>
                           <h2 class="nc-card-title block font-medium sm:font-semibold text-neutral-900 dark:text-neutral-100 text-sm sm:text-base xl:text-lg">
                             <span
                               class="line-clamp-2"
@@ -89,12 +89,12 @@ function LatestArticles() {
                         <div class="nc-PostCardMeta inline-flex items-center flex-wrap text-neutral-800 dark:text-neutral-200 leading-none text-xs">
                           <a
                             class="relative flex items-center space-x-2"
-                            href={"/publisher/" + article.author.slug}
+                            href={(window as any).REBLEND_BASE_PATHNAME + "/publisher/" + article.author.slug}
                           >
                             <div class="wil-avatar relative flex-shrink-0 inline-flex items-center justify-center overflow-hidden text-neutral-100 uppercase font-semibold shadow-inner rounded-full h-7 w-7 text-sm ring-1 ring-white dark:ring-neutral-900">
                               <img
                                 sizes="100px"
-                                src={
+                                src={(window as any).REBLEND_BASE_PATHNAME + 
                                   BASE + article.author?.avatar ||
                                   "/static/media/face2.jpeg"
                                 }
@@ -141,7 +141,7 @@ function LatestArticles() {
                             </svg>
                             <a
                               class="ml-1 text-neutral-900 dark:text-neutral-200"
-                              href={"/article/" + article.slug + "/#likes"}
+                              href={(window as any).REBLEND_BASE_PATHNAME + "/article/" + article.slug + "/#likes"}
                             >
                               {article.likeByIds?.length || 0}
                             </a>
@@ -149,7 +149,7 @@ function LatestArticles() {
                           <a
                             class="nc-PostCardCommentBtn relative items-center min-w-[68px] rounded-full text-neutral-6000 bg-neutral-50 transition-colors dark:text-neutral-200 dark:bg-neutral-800 hover:bg-teal-50 dark:hover:bg-teal-100 hover:text-teal-600 dark:hover:text-teal-500 hidden sm:flex  px-3 h-8 text-xs "
                             title="Comments"
-                            href={"/article/" + article.slug + "/#comments"}
+                            href={(window as any).REBLEND_BASE_PATHNAME + "/article/" + article.slug + "/#comments"}
                           >
                             <svg
                               width="24"
@@ -203,11 +203,11 @@ function LatestArticles() {
                     <div class="block flex-shrink-0 w-24 sm:w-36 md:w-44 xl:w-56 ml-3 sm:ml-6 rounded-3xl overflow-hidden z-0 mb-5 sm:mb-0">
                       <a
                         class="block w-full h-0 aspect-h-1 aspect-w-1 relative"
-                        href={"/article/" + article.slug}
+                        href={(window as any).REBLEND_BASE_PATHNAME + "/article/" + article.slug}
                       >
                         <div class="absolute inset-0">
                           <img
-                            src={BASE + article.coverImageUrl}
+                            src={(window as any).REBLEND_BASE_PATHNAME + BASE + article.coverImageUrl}
                             alt={article.title}
                             sizes="(max-width: 600px) 480px, 800px"
                             class="object-cover w-full h-full object-cover absolute inset-0 w-full h-full"
@@ -488,12 +488,12 @@ function LatestArticles() {
                   {articles?.map((article) => (
                     <a
                       class="nc-CardAuthor flex items-center p-4 xl:p-5 hover:bg-neutral-200 dark:hover:bg-neutral-700"
-                      href={"/author/" + article.author.slug}
+                      href={(window as any).REBLEND_BASE_PATHNAME + "/author/" + article.author.slug}
                     >
                       <div class="wil-avatar relative flex-shrink-0 inline-flex items-center justify-center overflow-hidden text-neutral-100 uppercase font-semibold shadow-inner rounded-full h-10 w-10 text-base flex-shrink-0 mr-4">
                         <img
                           sizes="100px"
-                          src={
+                          src={(window as any).REBLEND_BASE_PATHNAME + 
                             BASE + article.author.avatar ||
                             "/static/media/face1.jpeg"
                           }

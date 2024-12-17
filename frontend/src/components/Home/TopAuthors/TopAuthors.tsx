@@ -29,7 +29,7 @@ function TopAuthors() {
         >
           <a
             class="nc-CardAuthorBox flex flex-col items-center justify-center text-center px-3 py-5 sm:px-6 sm:py-7 rounded-3xl bg-white dark:bg-neutral-900 "
-            href="/author/the-demo-author-slug"
+            href={(window as any).REBLEND_BASE_PATHNAME + "/author/the-demo-author-slug"}
           >
             <div
               class="wil-avatar relative flex-shrink-0 inline-flex items-center justify-center overflow-hidden text-neutral-100 uppercase font-semibold shadow-inner rounded-full w-20 h-20 text-2xl ring-1 ring-white dark:ring-neutral-900"
@@ -69,7 +69,7 @@ function TopAuthors() {
           </a>
           <a
             class="nc-CardAuthorBox flex flex-col items-center justify-center text-center px-3 py-5 sm:px-6 sm:py-7 rounded-3xl bg-white dark:bg-neutral-900 "
-            href="/author/the-demo-author-slug"
+            href={(window as any).REBLEND_BASE_PATHNAME + "/author/the-demo-author-slug"}
           >
             <div
               class="wil-avatar relative flex-shrink-0 inline-flex items-center justify-center overflow-hidden text-neutral-100 uppercase font-semibold shadow-inner rounded-full w-20 h-20 text-2xl ring-1 ring-white dark:ring-neutral-900"
@@ -109,7 +109,7 @@ function TopAuthors() {
           </a>
           <a
             class="nc-CardAuthorBox flex flex-col items-center justify-center text-center px-3 py-5 sm:px-6 sm:py-7 rounded-3xl bg-white dark:bg-neutral-900 "
-            href="/author/the-demo-author-slug"
+            href={(window as any).REBLEND_BASE_PATHNAME + "/author/the-demo-author-slug"}
           >
             <div
               class="wil-avatar relative flex-shrink-0 inline-flex items-center justify-center overflow-hidden text-neutral-100 uppercase font-semibold shadow-inner rounded-full w-20 h-20 text-2xl ring-1 ring-white dark:ring-neutral-900"
@@ -149,7 +149,7 @@ function TopAuthors() {
           </a>
           <a
             class="nc-CardAuthorBox flex flex-col items-center justify-center text-center px-3 py-5 sm:px-6 sm:py-7 rounded-3xl bg-white dark:bg-neutral-900 "
-            href="/author/the-demo-author-slug"
+            href={(window as any).REBLEND_BASE_PATHNAME + "/author/the-demo-author-slug"}
           >
             <div
               class="wil-avatar relative flex-shrink-0 inline-flex items-center justify-center overflow-hidden text-neutral-100 uppercase font-semibold shadow-inner rounded-full w-20 h-20 text-2xl ring-1 ring-white dark:ring-neutral-900"
@@ -189,7 +189,7 @@ function TopAuthors() {
           </a>
           <a
             class="nc-CardAuthorBox flex flex-col items-center justify-center text-center px-3 py-5 sm:px-6 sm:py-7 rounded-3xl bg-white dark:bg-neutral-900 "
-            href="/author/the-demo-author-slug"
+            href={(window as any).REBLEND_BASE_PATHNAME + "/author/the-demo-author-slug"}
           >
             <div
               class="wil-avatar relative flex-shrink-0 inline-flex items-center justify-center overflow-hidden text-neutral-100 uppercase font-semibold shadow-inner rounded-full w-20 h-20 text-2xl ring-1 ring-white dark:ring-neutral-900"
@@ -229,7 +229,7 @@ function TopAuthors() {
           </a>
           <a
             class="nc-CardAuthorBox flex flex-col items-center justify-center text-center px-3 py-5 sm:px-6 sm:py-7 rounded-3xl bg-white dark:bg-neutral-900 "
-            href="/author/the-demo-author-slug"
+            href={(window as any).REBLEND_BASE_PATHNAME + "/author/the-demo-author-slug"}
           >
             <div
               class="wil-avatar relative flex-shrink-0 inline-flex items-center justify-center overflow-hidden text-neutral-100 uppercase font-semibold shadow-inner rounded-full w-20 h-20 text-2xl ring-1 ring-white dark:ring-neutral-900"
@@ -269,7 +269,7 @@ function TopAuthors() {
           </a>
           <a
             class="nc-CardAuthorBox flex flex-col items-center justify-center text-center px-3 py-5 sm:px-6 sm:py-7 rounded-3xl bg-white dark:bg-neutral-900 "
-            href="/author/the-demo-author-slug"
+            href={(window as any).REBLEND_BASE_PATHNAME + "/author/the-demo-author-slug"}
           >
             <div
               class="wil-avatar relative flex-shrink-0 inline-flex items-center justify-center overflow-hidden text-neutral-100 uppercase font-semibold shadow-inner rounded-full w-20 h-20 text-2xl ring-1 ring-white dark:ring-neutral-900"
@@ -309,7 +309,7 @@ function TopAuthors() {
           </a>
           <a
             class="nc-CardAuthorBox flex flex-col items-center justify-center text-center px-3 py-5 sm:px-6 sm:py-7 rounded-3xl bg-white dark:bg-neutral-900 "
-            href="/author/the-demo-author-slug"
+            href={(window as any).REBLEND_BASE_PATHNAME + "/author/the-demo-author-slug"}
           >
             <div
               class="wil-avatar relative flex-shrink-0 inline-flex items-center justify-center overflow-hidden text-neutral-100 uppercase font-semibold shadow-inner rounded-full w-20 h-20 text-2xl ring-1 ring-white dark:ring-neutral-900"
@@ -317,7 +317,7 @@ function TopAuthors() {
             >
               <img
                 sizes="100px"
-                src="/static/media/8.ce5f252ae5871de13c94.jpg"
+                src={(window as any).REBLEND_BASE_PATHNAME + "/static/media/8.ce5f252ae5871de13c94.jpg"}
                 class="absolute inset-0 w-full h-full object-cover object-cover absolute inset-0 w-full h-full"
                 alt="Sleite Claudetta"
               />
@@ -349,7 +349,7 @@ function TopAuthors() {
           </a>
           <a
             class="nc-CardAuthorBox flex flex-col items-center justify-center text-center px-3 py-5 sm:px-6 sm:py-7 rounded-3xl bg-white dark:bg-neutral-900 "
-            href="/author/the-demo-author-slug"
+            href={(window as any).REBLEND_BASE_PATHNAME + "/author/the-demo-author-slug"}
           >
             <div
               class="wil-avatar relative flex-shrink-0 inline-flex items-center justify-center overflow-hidden text-neutral-100 uppercase font-semibold shadow-inner rounded-full w-20 h-20 text-2xl ring-1 ring-white dark:ring-neutral-900"
@@ -389,7 +389,7 @@ function TopAuthors() {
           </a>
           <a
             class="nc-CardAuthorBox flex flex-col items-center justify-center text-center px-3 py-5 sm:px-6 sm:py-7 rounded-3xl bg-white dark:bg-neutral-900 "
-            href="/author/the-demo-author-slug"
+            href={(window as any).REBLEND_BASE_PATHNAME + "/author/the-demo-author-slug"}
           >
             <div
               class="wil-avatar relative flex-shrink-0 inline-flex items-center justify-center overflow-hidden text-neutral-100 uppercase font-semibold shadow-inner rounded-full w-20 h-20 text-2xl ring-1 ring-white dark:ring-neutral-900"

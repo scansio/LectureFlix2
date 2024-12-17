@@ -115,7 +115,7 @@ function Profile() {
                 <InputGroup className="fw-bold">
                   {profileImageUrl ? (
                     <Image
-                      src={
+                      src={(window as any).REBLEND_BASE_PATHNAME + 
                         urlChanged ? profileImageUrl : BASE + profileImageUrl
                       }
                     />

@@ -17,7 +17,7 @@ function Footer() {
             >
               <img
                 class="mx-auto h-20 w-auto"
-                src="/lectureFlixnest.logo.transparent.png"
+                src={(window as any).REBLEND_BASE_PATHNAME + "/blognest.logo.transparent.png"}
                 alt="Logo"
               />
             </Link>

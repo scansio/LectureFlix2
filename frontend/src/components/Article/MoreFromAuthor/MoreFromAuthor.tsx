@@ -69,7 +69,7 @@ function MoreFromAuthor({
                   <a
                     class="nc-PostCardLikeAction relative min-w-[68px] flex items-center rounded-full leading-none group transition-colors px-3 h-8 text-xs text-neutral-700 bg-neutral-50 dark:text-neutral-200 dark:bg-neutral-800 hover:bg-rose-50 dark:hover:bg-rose-100 hover:text-rose-600 dark:hover:text-rose-500"
                     title="Liked"
-                    href={"/article/" + article.slug}
+                    href={(window as any).REBLEND_BASE_PATHNAME + "/article/" + article.slug}
                   >
                     <svg
                       width="24"
@@ -94,7 +94,7 @@ function MoreFromAuthor({
                   <a
                     class="nc-PostCardCommentBtn relative items-center min-w-[68px] rounded-full text-neutral-6000 bg-neutral-50 transition-colors dark:text-neutral-200 dark:bg-neutral-800 hover:bg-teal-50 dark:hover:bg-teal-100 hover:text-teal-600 dark:hover:text-teal-500 hidden sm:flex  px-3 h-8 text-xs "
                     title="Comments"
-                    href={"/article/" + article.slug}
+                    href={(window as any).REBLEND_BASE_PATHNAME + "/article/" + article.slug}
                   >
                     <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
                       <path
@@ -157,7 +157,7 @@ function MoreFromAuthor({
               <div class="absolute inset-0">
                 <div class="nc-PostFeaturedMedia relative w-full h-full">
                   <img
-                    src={BASE + article.coverImageUrl}
+                    src={(window as any).REBLEND_BASE_PATHNAME + BASE + article.coverImageUrl}
                     sizes="(max-width: 600px) 480px, 800px"
                     class="object-cover object-cover absolute inset-0 w-full h-full"
                     alt="featured"
@@ -215,7 +215,7 @@ function MoreFromAuthor({
                   </div>
                   <a
                     class="block absolute inset-0 "
-                    href={"/article/" + article.slug}
+                    href={(window as any).REBLEND_BASE_PATHNAME + "/article/" + article.slug}
                   >
                     C
                   </a>
@@ -223,12 +223,12 @@ function MoreFromAuthor({
               </div>
               <a
                 class="absolute bottom-0 inset-x-0 h-1/2 bg-gradient-to-t from-black opacity-50"
-                href={"/article/" + article.slug}
+                href={(window as any).REBLEND_BASE_PATHNAME + "/article/" + article.slug}
               >
                 C
               </a>
               <div class="absolute bottom-0 inset-x-0 p-4 flex flex-col flex-grow">
-                <a class="absolute inset-0" href={"/article/" + article.slug}>
+                <a class="absolute inset-0" href={(window as any).REBLEND_BASE_PATHNAME + "/article/" + article.slug}>
                   c
                 </a>
                 <div class="mb-3">
@@ -239,7 +239,7 @@ function MoreFromAuthor({
                     {article.tags?.map((tag: any) => (
                       <a
                         class="transition-colors hover:text-white duration-300 nc-Badge  inline-flex px-2.5 py-1 rounded-full font-medium text-xs relative text-yellow-800 bg-yellow-100 hover:bg-yellow-800"
-                        href={"/tag/" + tag}
+                        href={(window as any).REBLEND_BASE_PATHNAME + "/tag/" + tag}
                       >
                         {tag}
                       </a>
@@ -255,7 +255,7 @@ function MoreFromAuthor({
                     </h2>
                     <a
                       class="flex mt-2.5 relative"
-                      href={"/publisher/" + article.author?.slug}
+                      href={(window as any).REBLEND_BASE_PATHNAME + "/publisher/" + article.author?.slug}
                     >
                       <span class="block text-neutral-200 hover:text-white font-medium truncate">
                         {article.author?.firstname} {article.author?.lastname}

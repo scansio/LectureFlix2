@@ -294,7 +294,7 @@ function EditForm({ data }: { data: IArticle | null }) {
                 <InputGroup className="fw-bold">
                   {coverImageUrl ? (
                     <Image
-                      src={urlChanged ? coverImageUrl : BASE + coverImageUrl}
+                      src={(window as any).REBLEND_BASE_PATHNAME + urlChanged ? coverImageUrl : BASE + coverImageUrl}
                     />
                   ) : null}
                 </InputGroup>

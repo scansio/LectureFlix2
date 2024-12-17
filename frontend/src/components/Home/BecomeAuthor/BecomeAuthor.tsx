@@ -21,7 +21,7 @@ function BecomeAuthor() {
               Everyone’s welcome.
             </span>
             <a
-              href="/author/"
+              href={(window as any).REBLEND_BASE_PATHNAME + "/author/"}
               class="nc-Button flex-shrink-0 relative h-auto inline-flex items-center justify-center rounded-full transition-colors border-transparent bg-primary-700 hover:bg-primary-6000 text-primary-50 text-sm sm:text-base font-medium py-3 px-4 sm:py-3.5 sm:px-6 mt-8 "
             >
               Become an author
@@ -30,7 +30,7 @@ function BecomeAuthor() {
           <div class="flex-grow">
             <img
               sizes="(max-width: 768px) 100vw, 50vw"
-              src="/static/media/BecomeAnAuthorImg.02703848a9dd53f8bbac.png"
+              src={(window as any).REBLEND_BASE_PATHNAME + "/static/media/BecomeAnAuthorImg.02703848a9dd53f8bbac.png"}
               class="undefined"
               alt="hero"
             />
