@@ -49,8 +49,8 @@ LectureFlix is a prototype for an academic content platform designed to combine 
 
 1. **Clone the Repository:**
    ```bash
-   git clone <repository-url>
-   cd LectureFlix
+   git clone https://github.com/scansio/LectureFlix2.git
+   cd LectureFlix2
    ```
 
 2. **Backend Setup:**
@@ -123,7 +123,7 @@ If you wish to modify the **frontend** or **admin frontend**, you can follow the
 #### Directory Structure
 
 ```
-LectureFlix/
+LectureFlix2/
 ├── backend/
 │   ├── dist/                 # Compiled backend code
 │   ├── src/                  # Source code for backend
